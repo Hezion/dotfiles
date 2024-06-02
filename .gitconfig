@@ -1,0 +1,28 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = David
+	email = Hezion@users.noreply.github.com
+
+[core]
+	editor = nvim
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	light = false
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	algorithm = histogram
+	context = 8
+	colorMoved = default
+[init]
+	defaultBranch = main
+[pack]
+	allowPackReuse = multi
